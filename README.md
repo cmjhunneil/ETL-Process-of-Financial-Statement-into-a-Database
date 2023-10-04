@@ -2,7 +2,9 @@
 
 ## Step 1: Data Collection
 
-For this project, I’ve chosen to analyze the financial statements of San Miguel Corporation, a publicly traded company with the stock ticker SMGBF. The financial data can be accessed from this website("https://finance.yahoo.com/quote/SMGBF/financials?p=SMGBF").
+For this project, I’ve chosen to analyze the financial statements of San Miguel Corporation, a publicly traded company with the stock ticker SMGBF. The financial data can be accessed from this [website]((https://finance.yahoo.com/quote/SMGBF/financials?p=SMGBF)).
+
+
 
 ![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/3794105f-3d5f-4129-83cf-96860292218d)
 
