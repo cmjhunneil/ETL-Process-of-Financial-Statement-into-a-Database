@@ -139,6 +139,10 @@ Once the data is successfully imported, double-check to ensure its accuracy. Aft
 
 ![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/f592f26a-90b8-462d-b225-21bbd46a5f4d)
 
+Key learnings:
+- Create table
+- Importing csv to database
+
 
 
 
