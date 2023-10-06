@@ -78,6 +78,28 @@ CREATE TABLE income_statement (
 	tax_effect_of_unusual_items DECIMAL(30, 0)
 );
 ```
+```sql
+CREATE TABLE balance_sheet (
+    total_assets VARCHAR(100),
+    total_liabilities_net_minority_interest DECIMAL(30, 0),
+	total_equity_gross_minority_interest DECIMAL(30, 0),
+	total_capitalization DECIMAL(30, 0),
+	preferred_stock_equity DECIMAL(30, 0),
+	common_stock_equity DECIMAL(30, 0),
+	capital_lease_obligations DECIMAL(30, 0),
+	net_tangible_assets DECIMAL(30, 0),
+	working_capital DECIMAL(30, 0),
+	invested_capital DECIMAL(30, 0),
+	tangible_book_value DECIMAL(30, 0),
+	total_debt DECIMAL(30, 0),
+	net_debt DECIMAL(30, 0),
+	share_issued DECIMAL(30, 0),
+	ordinary_shares_number DECIMAL(30, 0),
+	preferred_shares_number DECIMAL(30, 0),
+	treasury_shares_number DECIMAL(30, 0)
+	
+);
+```
 
 ![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/c1bacb22-6e2f-4fbb-8bf9-f67ac960c4ee)
 
