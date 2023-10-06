@@ -4,14 +4,13 @@
 
 For this project, I’ve chosen to analyze the financial statements of San Miguel Corporation, a publicly traded company with the stock ticker SMGBF. The financial data can be accessed from this [website](https://finance.yahoo.com/quote/SMGBF/financials?p=SMGBF)
 
-
-
-
 ![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/3794105f-3d5f-4129-83cf-96860292218d)
 
 I began by manually copying the income statement and pasting it into an Excel spreadsheet. However, I encountered a formatting issue where the data did not distribute across individual cells as expected, but instead clustered into a single cell. This is what we refer to as ‘dirty data’, which is not ideal for analysis.
 
-![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/cb0e8894-94bf-4c82-afa1-7e618422dfb8)
+![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/28bbaa54-6364-4faf-a6e4-5fabfd950664)
+![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/2ee89d64-7890-476c-8c8f-429c5f5c8a92)
+![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/f0da75a5-3e1e-49f9-bf27-c589291907d5)
 
 
 To clean this data, there are two methods that I’m aware of: manual cleaning using Excel or utilizing Python’s pandas library. For this project, I’ve opted to use pandas in Python. The cleanup code can be found in the repository.
