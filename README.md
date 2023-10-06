@@ -65,11 +65,13 @@ Right-click on it and look for the import button.
 
 Select the directory of the filename, and check the options and columns. You may need to enable the header option, depending on your data.
 
-![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/f66967ab-da64-451d-8a3f-12488818b288)
+![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/4dedb7c6-69b0-4e65-926f-f1e064d6e769)
+
 
 Once the data is successfully imported, double-check to ensure its accuracy. After confirming that the data is correct, it’s ready for analysis. Remember, accurate data is crucial for reliable analytical results.
 
-![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/036087d8-5265-4e93-becb-b63c0d2c4ade)
+![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/f592f26a-90b8-462d-b225-21bbd46a5f4d)
+
 
 
 
