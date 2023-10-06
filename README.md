@@ -1,4 +1,4 @@
-# Financial-Statement-Analysis
+![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/3e162b09-f508-4eeb-8f09-81ebf4d630bc)# Financial-Statement-Analysis
 
 ## Step 1: Data Collection
 
@@ -6,7 +6,7 @@ For this project, I’ve chosen to analyze the financial statements of San Migue
 
 ![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/3794105f-3d5f-4129-83cf-96860292218d)
 
-I began by manually copying the income statement and pasting it into an Excel spreadsheet. However, I encountered a formatting issue where the data did not distribute across individual cells as expected, but instead clustered into a single cell. This is what we refer to as ‘dirty data’, which is not ideal for analysis.
+I began by manually copying the financial statement and pasting it into an Excel spreadsheet. However, I encountered a formatting issue where the data did not distribute across individual cells as expected, but instead clustered into a single cell. This is what we refer to as ‘dirty data’, which is not ideal for analysis.
 
 ![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/28bbaa54-6364-4faf-a6e4-5fabfd950664)
 ![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/2ee89d64-7890-476c-8c8f-429c5f5c8a92)
@@ -16,12 +16,17 @@ I began by manually copying the income statement and pasting it into an Excel sp
 To clean this data, there are two methods that I’m aware of: manual cleaning using Excel or utilizing Python’s pandas library. For this project, I’ve opted to use pandas in Python. The cleanup code can be found in the repository.
 
 ### Before:
-![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/19ca9fa2-8187-4bbc-8c21-b3e22c5e1891)
+![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/39a2864f-7d69-4de7-99e1-76ed874d1484)
+![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/d281ff1d-650e-4091-8526-3773bac10509)
+![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/35627e6e-19ac-49d8-a037-0f9a845d4a15)
+
 
 Comparing the ‘before’ and ‘after’ states of the data reveals a significant difference. With the data now clean and ready for analysis, it can be stored in a database.
 
 ### After:
-![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/9638c7c4-78d3-4d5d-8803-9ca34e24840d)
+![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/8c26fa94-4526-4374-bd89-cf34c41619db)
+![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/ec681fe4-b2d8-4d77-bc39-6c9a3d6e66dc)
+![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/840a1d21-1046-41f9-a3b5-33a51f1fb8c4)
 
 
 ## Step 2: Data Storage
