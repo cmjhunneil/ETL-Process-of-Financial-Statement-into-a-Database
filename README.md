@@ -28,6 +28,11 @@ Comparing the ‘before’ and ‘after’ states of the data reveals a signific
 ![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/ec681fe4-b2d8-4d77-bc39-6c9a3d6e66dc)
 ![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/840a1d21-1046-41f9-a3b5-33a51f1fb8c4)
 
+Export the cleaned table, transpose it locally in Excel for more efficient querying when it’s uploaded to the database.
+![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/97e0aadb-6563-4fc0-92b9-a2a2183be11f)
+![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/ec4a25c3-2501-49f3-a614-803f5d272df9)
+![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/5cc346b3-0649-4066-af3c-27472bd8928d)
+
 
 ## Step 2: Data Storage
 
