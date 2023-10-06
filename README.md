@@ -80,8 +80,9 @@ CREATE TABLE income_statement (
 ```
 
 ```sql
-CREATE TABLE balance_sheet (
-    total_assets VARCHAR(100),
+CREATE TABLE balance_sheet 
+	breakdown VARCHAR(100),
+    total_assets DECIMAL(30, 0),
     total_liabilities_net_minority_interest DECIMAL(30, 0),
 	total_equity_gross_minority_interest DECIMAL(30, 0),
 	total_capitalization DECIMAL(30, 0),
