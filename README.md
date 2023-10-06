@@ -78,6 +78,7 @@ CREATE TABLE income_statement (
 	tax_effect_of_unusual_items DECIMAL(30, 0)
 );
 ```
+
 ```sql
 CREATE TABLE balance_sheet (
     total_assets VARCHAR(100),
