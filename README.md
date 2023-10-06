@@ -31,6 +31,12 @@ Export the cleaned table, transpose it locally in Excel for more efficient query
 ![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/ec4a25c3-2501-49f3-a614-803f5d272df9)
 ![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/5cc346b3-0649-4066-af3c-27472bd8928d)
 
+Key learnings:
+- The art of data cleaning and how it’s crucial for effective data analysis.
+- The power of Pandas, a software library for Python, and its various functionalities.
+- The use of loops in programming to automate repetitive tasks.
+- The application of the substitution function to replace specific values in a dataset.
+- The utility of the transpose function to rotate data frames, making rows into columns and vice versa.
 
 ## Step 2: Data Storage
 
