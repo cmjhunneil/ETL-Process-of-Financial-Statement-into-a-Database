@@ -103,6 +103,23 @@ CREATE TABLE balance_sheet
 );
 ```
 
+```sql
+CREATE TABLE cash_flow (
+	breakdown VARCHAR(100),
+    operating_cash_flow DECIMAL(30, 0),
+    investing_cash_flow DECIMAL(30, 0),
+	financing_cash_flow DECIMAL(30, 0),
+	end_cash_position DECIMAL(30, 0),
+	capital_expenditure DECIMAL(30, 0),
+	issuance_of_capital_stock DECIMAL(30, 0),
+	issuance_of_debt DECIMAL(30, 0),
+	repayment_of_debt DECIMAL(30, 0),
+	repurchase_of_capital_stock DECIMAL(30, 0),
+	free_cash_flow DECIMAL(30, 0)
+	
+);
+```
+
 ![image](https://github.com/cmjhunneil/Financial-Statement-Analysis/assets/63811723/c1bacb22-6e2f-4fbb-8bf9-f67ac960c4ee)
 
 After creating the table, refresh the interface and navigate to your table name. 
