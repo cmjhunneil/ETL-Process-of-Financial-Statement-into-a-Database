@@ -43,13 +43,39 @@ Key learnings:
 Open pgAdmin (a GUI for PostgreSQL) or another database of your choice, and create a table that aligns with the column names of your cleaned data from Excel. Otherwise, the import process will not proceed.
 
 ```sql
-CREATE TABLE Income_Statement (
-    Breakdown VARCHAR(100),
-    TTM DECIMAL(15, 2),
-    End_of_2022 DECIMAL(15, 2),
-    End_of_2021 DECIMAL(15, 2),
-    End_of_2020 DECIMAL(15, 2),
-    End_of_2019 DECIMAL(15, 2)
+CREATE TABLE income_statement (
+    breakdown VARCHAR(100),
+    total_revenue DECIMAL(30, 0),
+	cost_of_revenue DECIMAL(30, 0),
+	gross_profit DECIMAL(30, 0),
+	operating_expense DECIMAL(30, 0),
+	operating_income DECIMAL(30, 0),
+	net_non_operating_interest_income_expense	 DECIMAL(30, 0),
+	pretax_income DECIMAL(30, 0),
+	tax_provision DECIMAL(30, 0),
+	net_income_common_stockholders DECIMAL(30, 0),
+	diluted_ni_available_to_com_stockholders DECIMAL(30, 0),
+	basic_eps DECIMAL(30, 0),
+	diluted_eps DECIMAL(30, 0),
+	basic_average_shares DECIMAL(30, 0),
+	diluted_average_shares DECIMAL(30, 0),
+	rent_expense_supplemental DECIMAL(30, 0),
+	total_expenses DECIMAL(30, 0),
+	net_income_from_continuing_and_discontinued_operation DECIMAL(30, 0),
+	normalized_income DECIMAL(30, 0),
+	interest_income DECIMAL(30, 0),
+	interest_expense DECIMAL(30, 0),
+	net_interest_income DECIMAL(30, 0),
+	ebit DECIMAL(30, 0),
+	ebitda DECIMAL(30, 0),
+	reconciled_cost_of_revenue DECIMAL(30, 0),
+	reconciled_depreciation DECIMAL(30, 0),
+	net_income_from_continuing_operation_net_minority_interest DECIMAL(30, 0),
+	total_unusual_items_excluding_goodwill DECIMAL(30, 0),
+	total_unusual_items DECIMAL(30, 0),
+	normalized_ebitda DECIMAL(30, 0),
+	tax_rate_for_calcs DECIMAL(30, 0),
+	tax_effect_of_unusual_items DECIMAL(30, 0)
 );
 ```
 
